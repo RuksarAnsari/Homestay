@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: skyblue;
+	margin:0;
+}
+
+#gh{
+	background-color: lightgrey;
+	color: black;
+	border-collapse:collapse;
+	text-align:left;
+	vertical-align:top;
+	table-layout: auto;
+	width:100%;
+	align:center;
+	border-radius: 2%;
+	
+	
+}
+
+td{
+	padding:3%;
+	color: green;
+	height: 25px;
+	
+	
+}
+
+tr:hover{
+	background-color: lightgreen;
+	border-spacing:0px;
+}
+
+tr:nth-child(even){
+	background-color: white;
+}
+
+tr:nth-child(even):hover{
+	background-color: lightgreen;
+}
+

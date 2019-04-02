@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-color: skyblue;
+	margin:0;
+}
+
+#gh{
+	background-color: lightgrey;
+	color: black;
+	border-collapse:collapse;
+	text-align:left;
+	vertical-align:top;
+	table-layout: auto;
+	width:100%;
+	align:center;
+	border-radius: 2%;
+	
+	
+}
+
+td{
+	padding:3%;
+	color: green;
+	height: 25px;
+	
+	
+}
+
+#tail:hover{
+	background-color: lightgreen;
+	border-spacing:0px;
+}
+
+#tail:nth-child(even){
+	background-color: white;
+}
+
+#tail:nth-child(even):hover{
+	background-color: lightgreen;
+}
+
+.head{
+	background-color: lightseagreen;
+}
+
+.book{
+	padding:5%;
+	margin-left:100px;
+	border:none;
+	cursor:pointer;
+	text-decoration: none;
+	background-color: lightseagreen;
+	border-radius: 10%;
+	border-shadow: 0 9px #999;
+	transition: 0.2s;
+}
+
+.book:hover{
+	border-radius:40%;
+	background-color: lightgrey;
+}
+
+
